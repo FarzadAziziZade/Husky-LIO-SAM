@@ -42,7 +42,6 @@ mkdir -p   catkin_ws_HUSKY_LIO_SAM
 cd ~/catkin_ws_HUSKY_LIO_SAM
 git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM.git
 mv Husky-LIO-SAM src
-cd ..
 catkin_make
 ```
 
