@@ -1,5 +1,5 @@
 # Husky-LIO-SAM
-This package is an implementation of the LIO-SAM on Husky UGV in a simulation environmet.
+This package is an implementation of the LIO-SAM on Husky UGV in a simulation environment.
 
 This package is based on:
 =========================
@@ -13,7 +13,7 @@ Requirements:
   - [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
 
-Make sure that you have installed all dependecies:
+Make sure that you have installed all dependencies:
 ==================================================
 
 ```
@@ -39,12 +39,12 @@ How to compile:
 
 ```
 cd ~/catkin_ws_HUSKY_LIO_SAM/src
-git clone https://github.com/ChaoqinRobotics/Husky-LIO-SAM.git
+git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM.git
 cd ..
 catkin_make
 ```
 
-How to prepare simulaion environmet:
+How to prepare simulation environment:
 ====================================
 1. download the [DAE](https://drive.google.com/file/d/1HfOU4oYl1D4UGBcUe0zXGNeuPx7ARpQL/view?usp=sharing) file
 2. put the file in (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include)
