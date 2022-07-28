@@ -8,6 +8,11 @@ This package is based on:
   - (https://github.com/husky/husky/tree/3af80eab1ec0b0d44259c6c8797e4a28797507ca)
 
 
+Reqirements:
+============
+[ROS](http://wiki.ros.org/melodic/Installation/Ubuntu)
+
+
 Make sure that you have installed all dependecies:
 ==================================================
 
