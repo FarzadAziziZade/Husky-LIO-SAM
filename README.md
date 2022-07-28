@@ -1,7 +1,7 @@
 # Husky-LIO-SAM
 Husky-LIO-SAM
 
-Based on
+This package is based on:
 
 (https://github.com/TixiaoShan/LIO-SAM)
 
