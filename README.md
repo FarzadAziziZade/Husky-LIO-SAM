@@ -46,11 +46,13 @@ catkin_make
 
 How to prepare simulaion environmet:
 ====================================
-1. go to (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds)
-2. open (clearpath_playpen.world) with a texteditor
-3. find two lines including (<uri>/home/{USERNAME}/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include/minefourthv7withCforGAZEBOO.dae</uri>)
-4. replace the {USERNAME}  with your own username
-5. save the file and close it
+1. download the DAE file
+2. put the file in (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include)
+3. go to (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds)
+4. open (clearpath_playpen.world) with a texteditor
+5. find two lines including (<uri>/home/{USERNAME}/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include/minefourthv7withCforGAZEBOO.dae</uri>)
+6. replace the {USERNAME}  with your own username
+7. save the file and close it
 
 How to run the SLAM simulation:
 ===============================
