@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<!--- Run Husky -->
+    <include file="$(find lio_sam)/husky/husky_gazebo/launch/husky_playpen.launch" />
+
+</launch>

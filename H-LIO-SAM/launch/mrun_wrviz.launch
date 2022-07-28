@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<!--- Run Merging module -->
+    <include file="$(find pcl_m)/merged_run_rviz.launch" />
+
+</launch>

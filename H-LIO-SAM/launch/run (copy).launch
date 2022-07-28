@@ -1,0 +1,30 @@
+<launch>
+    <arg name="project" default="lio_sam"/>
+    
+    <!-- Parameters -->
+    <rosparam file="$(find lio_sam)/config/params.yaml" command="load" />
+
+    <!--- LOAM -->
+    <include file="$(find lio_sam)/launch/include/module_loam.launch" />
+
+    <!--- Robot State TF -->
+    <include file="$(find lio_sam)/launch/include/module_robot_state_publisher.launch" />
+
+    <!--- Run Navsat -->
+    <include file="$(find lio_sam)/launch/include/module_navsat.launch" />   
+
+    <!--- Delay-->
+<arg name="node_start_delay" default="10.0" />  
+<!---<node name="listener" pkg="roscpp_tutorials" type="listener" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " />-->
+
+
+    <!--- Run Rviz-->
+    <include file="$(find lio_sam)/launch/include/module_rviz.launch" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+
+
+  <!--- Run Move Base -->  
+  <include file="$(find husky_navigation)/launch/gmapping_demo.launch" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " >
+  </include>
+
+
+</launch>
