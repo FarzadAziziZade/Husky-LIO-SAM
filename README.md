@@ -38,10 +38,10 @@ How to compile:
 ===============
 
 ```
-mkdir -p   catkin_ws_HUSKY_LIO_SAM/src
-cd ~/catkin_ws_HUSKY_LIO_SAM/src
-git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM/H-LIO-SAM.git
-git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM/pcl_m.git
+mkdir -p   catkin_ws_HUSKY_LIO_SAM
+cd ~/catkin_ws_HUSKY_LIO_SAM
+git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM.git
+mv Husky-LIO-SAM src
 cd ..
 catkin_make
 ```
