@@ -10,7 +10,7 @@ This package is based on:
 
 Requirements:
 ============
-[ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+  - [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
 
 Make sure that you have installed all dependecies:
