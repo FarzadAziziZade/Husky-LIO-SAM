@@ -66,3 +66,15 @@ How to run the merging module without SLAM:
 ===========================================
 1. roslaunch lio_sam hrun.launch
 2. roslaunch lio_sam mrun_wrviz.launch
+
+
+
+Results:
+========
+![Screenshot from 2022-07-28 03-18-07](https://user-images.githubusercontent.com/84402243/181609705-9eeb9cec-36b5-41f8-a9aa-0cf067fc002f.png)
+![Screenshot from 2022-07-28 03-18-33](https://user-images.githubusercontent.com/84402243/181609868-ee4055ec-788c-4ea2-82be-8e83fdbd0e26.png)
+![Screenshot from 2022-07-28 03-18-11](https://user-images.githubusercontent.com/84402243/181609737-25fd86dc-8f86-4ef5-97cb-5b94663955fb.png)
+![Screenshot from 2022-07-28 03-18-14](https://user-images.githubusercontent.com/84402243/181609762-fcaa8b2d-e773-423b-8025-fc97c22f0b0c.png)
+![Screenshot from 2022-07-28 03-18-18](https://user-images.githubusercontent.com/84402243/181609835-e47932b5-d29b-4b64-9a11-b208504ed73b.png)
+![Screenshot from 2022-07-28 03-18-23](https://user-images.githubusercontent.com/84402243/181609855-f81dddc3-83a3-4f4c-b32e-cb5b1a7812b1.png)
+
