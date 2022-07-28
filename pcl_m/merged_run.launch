@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="project" default="pcl_m"/>
+
+    <!--- Run PCL-->
+    <node pkg="$(arg project)" type="node"   name="node"/>
+
+
+</launch>

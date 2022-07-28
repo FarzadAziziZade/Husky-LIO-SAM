@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="project" default="pcl_m"/>
+
+    <!--- Run Rviz-->
+    <node pkg="rviz" type="rviz" name="$(arg project)_rviz" args="-d $(find pcl_m)/src/merged_rviz.rviz" />
+
+
+    <!--- Run PCL-->
+    <node pkg="$(arg project)" type="node"   name="node"/>
+
+
+</launch>
