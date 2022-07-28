@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>husky_speed_controller</name>
+  <version>0.0.0</version>
+  <description>The husky_speed_controller package</description>
+
+  <license>TODO</license>
+  <maintainer email="himanshu@ee.iitr.ac.in">Himanshu</maintainer>
+  <url type="repository">https://github.com/htanwar922/husky</url>
+  <author email="himanshu@ee.iitr.ac.in">Himanshu</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>  
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <!-- <test_depend>gtest</test_depend> -->
+  <!-- <doc_depend>doxygen</doc_depend> -->
+  <export></export>   <!-- The export tag contains other, unspecified, tags. Other tools can request additional information be placed here -->
+  
+</package>
