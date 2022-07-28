@@ -38,7 +38,7 @@ How to compile:
 ===============
 
 ```
-mkdir –p catkin_ws_HUSKY_LIO_SAM/src
+mkdir -p   catkin_ws_HUSKY_LIO_SAM/src
 cd ~/catkin_ws_HUSKY_LIO_SAM/src
 git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM.git
 cd ..
