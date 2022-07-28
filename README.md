@@ -1,5 +1,5 @@
 # Husky-LIO-SAM
-Husky-LIO-SAM
+This package is an implementation of the LIO-SAM on Husky UGV in a simulation environmet.
 
 This package is based on:
 =========================
@@ -10,20 +10,22 @@ This package is based on:
 
 Make sure that you have installed all dependecies:
 ==================================================
-  - sudo apt-get install -y ros-kinetic-navigation
+  - sudo apt-get install -y ros-melodic-navigation
   
-  - sudo apt-get install -y ros-kinetic-robot-localization
+  - sudo apt-get install -y ros-melodic-robot-localization
   
-  - sudo apt-get install -y ros-kinetic-robot-state-publisher
+  - sudo apt-get install -y ros-melodic-robot-state-publisher
   
   - sudo add-apt-repository ppa:borglab/gtsam-release-4.0
   
   - sudo apt install libgtsam-dev libgtsam-unstable-dev
   
+  - sudo apt-get install ros-melodic-velodyne-*
+  
 
 Then install the Husky packages (for more information visit http://wiki.ros.org/Robots/Husky):
 ==============================================================================================
-  - sudo apt-get install ros-melodic-husky-simulator ros-melodic-husky-navigation ros-melodic-husky-gazebo ros-melodic-husky-viz
+  - sudo apt-get install ros-melodic-husky-*
   
   - export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
   
