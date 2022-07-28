@@ -3,9 +3,9 @@ This package is an implementation of the LIO-SAM on Husky UGV in a simulation en
 
 This package is based on:
 =========================
-  - (https://github.com/TixiaoShan/LIO-SAM)
+  - [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
   
-  - (https://github.com/husky/husky/tree/3af80eab1ec0b0d44259c6c8797e4a28797507ca)
+  - [HUSKY](https://github.com/husky/husky/tree/3af80eab1ec0b0d44259c6c8797e4a28797507ca)
 
 
 Requirements:
@@ -25,7 +25,7 @@ sudo apt install libgtsam-dev libgtsam-unstable-dev
 sudo apt-get install ros-melodic-velodyne-*
 ```
 
-Then install the Husky packages (for more information visit http://wiki.ros.org/Robots/Husky):
+Then install the Husky packages (for more information visit [HUSKY](http://wiki.ros.org/Robots/Husky)):
 ==============================================================================================
 
 ```
