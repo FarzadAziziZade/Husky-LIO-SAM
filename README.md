@@ -44,7 +44,15 @@ cd ..
 catkin_make
 ```
 
-How to run the SLAM Simulation:
+How to prepare simulaion environmet:
+====================================
+1. go to (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds)
+2. open (clearpath_playpen.world) with a texteditor
+3. find two lines including (<uri>/home/{USERNAME}/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include/minefourthv7withCforGAZEBOO.dae</uri>)
+4. replace the {USERNAME}  with your own username
+5. save the file and close it
+
+How to run the SLAM simulation:
 ===============================
 1. roslaunch lio_sam hrun.launch
 2. roslaunch lio_sam run.launch
