@@ -10,26 +10,28 @@ This package is based on:
 
 Make sure that you have installed all dependecies:
 ==================================================
-  - sudo apt-get install -y ros-melodic-navigation
-  
-  - sudo apt-get install -y ros-melodic-robot-localization
-  
-  - sudo apt-get install -y ros-melodic-robot-state-publisher
-  
-  - sudo add-apt-repository ppa:borglab/gtsam-release-4.0
-  
-  - sudo apt install libgtsam-dev libgtsam-unstable-dev
-  
-  - sudo apt-get install ros-melodic-velodyne-*
-  
+
+```
+sudo apt-get install -y ros-melodic-navigation
+sudo apt-get install -y ros-melodic-robot-localization
+sudo apt-get install -y ros-melodic-robot-state-publisher
+sudo add-apt-repository ppa:borglab/gtsam-release-4.0
+sudo apt install libgtsam-dev libgtsam-unstable-dev
+sudo apt-get install ros-melodic-velodyne-*
+```
 
 Then install the Husky packages (for more information visit http://wiki.ros.org/Robots/Husky):
 ==============================================================================================
-  - sudo apt-get install ros-melodic-husky-*
+
+```
+sudo apt-get install ros-melodic-husky-*
+export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
+```
   
-  - export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
-  
+
 How to compile:
+===============
+
 ```
 cd ~/catkin_ws_HUSKY_LIO_SAM/src
 git clone https://github.com/ChaoqinRobotics/Husky-LIO-SAM.git
