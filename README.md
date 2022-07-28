@@ -29,6 +29,13 @@ Then install the Husky packages (for more information visit http://wiki.ros.org/
   
   - export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
   
+How to compile:
+```
+cd ~/catkin_ws_HUSKY_LIO_SAM/src
+git clone https://github.com/ChaoqinRobotics/Husky-LIO-SAM.git
+cd ..
+catkin_make
+```
 
 How to run the SLAM Simulation:
 ===============================
