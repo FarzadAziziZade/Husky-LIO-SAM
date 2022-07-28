@@ -46,7 +46,7 @@ catkin_make
 
 How to prepare simulaion environmet:
 ====================================
-1. download the DAE file
+1. download the [DAE](https://drive.google.com/file/d/1HfOU4oYl1D4UGBcUe0zXGNeuPx7ARpQL/view?usp=sharing) file
 2. put the file in (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include)
 3. go to (catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds)
 4. open (clearpath_playpen.world) with a texteditor
