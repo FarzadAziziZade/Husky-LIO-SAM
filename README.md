@@ -40,7 +40,8 @@ How to compile:
 ```
 mkdir -p   catkin_ws_HUSKY_LIO_SAM/src
 cd ~/catkin_ws_HUSKY_LIO_SAM/src
-git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM.git
+git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM/H-LIO-SAM.git
+git clone https://github.com/FarzadAziziZade/Husky-LIO-SAM/pcl_m.git
 cd ..
 catkin_make
 ```
