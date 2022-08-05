@@ -79,10 +79,7 @@ SLAM and Simulation Results:
 ![Screenshot from 2022-06-28 11-11-11](https://user-images.githubusercontent.com/84402243/183020379-e36dc904-1c65-4284-9327-3f1a519d9e58.png)
 ![Screenshot from 2022-06-28 11-10-38](https://user-images.githubusercontent.com/84402243/183020514-71b6c305-35cd-4ab9-9012-2f670c4bd1f6.png)
 ![Screenshot from 2022-06-28 11-11-43](https://user-images.githubusercontent.com/84402243/183020587-3ce64b46-1622-4704-85d5-15961c7720b1.png)
-
-
 ![Screenshot (827)](https://user-images.githubusercontent.com/84402243/183019910-990a0823-75d0-43a1-a8f9-46855851cbc9.png)
-
 
 PCL_M Results:
 ==============
@@ -92,5 +89,4 @@ PCL_M Results:
 ![Screenshot from 2022-07-28 03-18-14](https://user-images.githubusercontent.com/84402243/181609762-fcaa8b2d-e773-423b-8025-fc97c22f0b0c.png)
 ![Screenshot from 2022-07-28 03-18-18](https://user-images.githubusercontent.com/84402243/181609835-e47932b5-d29b-4b64-9a11-b208504ed73b.png)
 ![Screenshot from 2022-07-28 03-18-23](https://user-images.githubusercontent.com/84402243/181609855-f81dddc3-83a3-4f4c-b32e-cb5b1a7812b1.png)
-![Screenshot from 2022-07-14 10-16-19](https://user-images.githubusercontent.com/84402243/183020750-03f42589-35b9-4cb6-8d01-08e0c0d725cf.png)
 
