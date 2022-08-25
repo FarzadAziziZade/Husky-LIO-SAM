@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(lio_sam)
 
 set(CMAKE_BUILD_TYPE "Release")
-set(CMAKE_CXX_FLAGS "-std=c++11")
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g -pthread")
 
 find_package(catkin REQUIRED COMPONENTS
@@ -19,21 +19,12 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   message_generation
   visualization_msgs
-  pcl_ros
-  std_msgs
-  roslint
-  tf2
-  tf2_eigen
-  tf2_ros
-  velodyne_pointcloud
 )
 
 find_package(OpenMP REQUIRED)
-find_package(PCL REQUIRED QUIET)
+find_package(PCL 1.10 REQUIRED QUIET)
 find_package(OpenCV REQUIRED QUIET)
 find_package(GTSAM REQUIRED QUIET)
-find_package(PkgConfig REQUIRED)
-find_package(PCL)
 
 add_message_files(
   DIRECTORY msg
@@ -89,18 +80,6 @@ link_directories(
 ###########
 ## Build ##
 ###########
-
-add_definitions(${PCL_DEFINITIONS})
-
-add_executable(${PROJECT_NAME}_pmerger src/pmerger.cpp)
-
-add_dependencies(${PROJECT_NAME}_pmerger ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
-target_link_libraries(${PROJECT_NAME}_pmerger
-  ${catkin_LIBRARIES}
-  ${PCL_LIBRARIES}
-)
-
 
 # Range Image Projection
 add_executable(${PROJECT_NAME}_imageProjection src/imageProjection.cpp)
