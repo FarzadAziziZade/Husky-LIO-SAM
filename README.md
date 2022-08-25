@@ -10,7 +10,8 @@ This package is based on:
 
 Requirements:
 ============
-  - [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+  - [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
+  - [Click for ROS Melodic version](https://github.com/FarzadAziziZade/Husky-LIO-SAM)
 
 
 Make sure that you have installed all dependencies:
