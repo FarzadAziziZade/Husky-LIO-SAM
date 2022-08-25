@@ -17,19 +17,25 @@ Make sure that you have installed all dependencies:
 ==================================================
 
 ```
-sudo apt-get install -y ros-melodic-navigation
-sudo apt-get install -y ros-melodic-robot-localization
-sudo apt-get install -y ros-melodic-robot-state-publisher
+sudo apt-get install -y ros-noetic-navigation
+sudo apt-get install -y ros-noetic-robot-localization
+sudo apt-get install -y ros-noetic-robot-state-publisher
 sudo add-apt-repository ppa:borglab/gtsam-release-4.0
 sudo apt install libgtsam-dev libgtsam-unstable-dev
-sudo apt-get install ros-melodic-velodyne-*
+sudo apt-get install ros-noetic-velodyne-*
+wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.3.zip
+cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
+cd ~/Downloads/gtsam-4.0.3/
+mkdir build && cd build
+cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF ..
+sudo make install -j8
 ```
 
 Then install the Husky packages (for more information visit [HUSKY](http://wiki.ros.org/Robots/Husky)):
 ==============================================================================================
 
 ```
-sudo apt-get install ros-melodic-husky-*
+sudo apt-get install ros-noetic-husky-*
 export HUSKY_GAZEBO_DESCRIPTION=$(rospack find husky_gazebo)/urdf/description.gazebo.xacro
 ```
   
