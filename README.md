@@ -11,7 +11,7 @@ This package is based on:
 Requirements:
 ============
   - [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
-  - [Click for ROS Noetic version](https://github.com/FarzadAziziZade/Husky-LIO-SAM)
+  - [Click for ROS Noetic version](https://github.com/FarzadAziziZade/Husky-LIO-SAM/tree/Noetic)
 
 
 Make sure that you have installed all dependencies:
