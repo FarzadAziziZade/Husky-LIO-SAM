@@ -55,6 +55,7 @@ How to prepare simulation environment:
 5. find two lines including (<uri>/home/{USERNAME}/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include/minefourthv7withCforGAZEBOO.dae</uri>)
 6. replace the {USERNAME}  with your own username
 7. save the file and close it
+https://askubuntu.com/questions/844876/how-do-you-copy-a-directory-and-its-contents-to-a-new-location-under-a-new-direc
 
 How to run the SLAM simulation:
 ===============================
