@@ -56,10 +56,12 @@ How to prepare simulation environment:
 6. replace the {USERNAME}  with your own username
 7. save the file and close it
 8. Follow these commands:
-,,,
 
+
+
+```
 sudo cp -r ~/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/ /opt/ros/melodic/share
-,,,
+```
 
 How to run the SLAM simulation:
 ===============================
