@@ -61,6 +61,11 @@ How to prepare simulation environment:
 5. find two lines including (<uri>/home/{USERNAME}/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/husky_gazebo/worlds/include/minefourthv7withCforGAZEBOO.dae</uri>)
 6. replace the {USERNAME}  with your own username
 7. save the file and close it
+8. Follow these commands:
+
+```
+sudo cp -r ~/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/ /opt/ros/noetic/share
+```
 
 How to run the SLAM simulation:
 ===============================
