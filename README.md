@@ -57,8 +57,6 @@ How to prepare simulation environment:
 7. save the file and close it
 8. Follow these commands:
 
-
-
 ```
 sudo cp -r ~/catkin_ws_HUSKY_LIO_SAM/src/H-LIO-SAM/husky/ /opt/ros/melodic/share
 ```
